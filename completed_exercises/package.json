@@ -8,5 +8,5 @@
     "testEnvironment": "node"
   },
   "author": "yavar guliyev",
-  "license": "ISC"
+  "license": "MIT"
 }
