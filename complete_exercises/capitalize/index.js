@@ -15,7 +15,7 @@
 
 //#region solutions
 
-// @desc: soliton one
+// @desc: solution one
 
 // @desc: String.prototype.split()
 // @desc: URL[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split]
@@ -41,7 +41,7 @@ function capitalize(str) {
   return words.join(' ');
 }
 
-// @desc: soliton two
+// @desc: solution two
 
 // @desc: create 'result' which is the first character of the input string capitalized
 // @desc: for each character in the string

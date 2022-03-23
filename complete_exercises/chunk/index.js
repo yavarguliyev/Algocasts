@@ -16,7 +16,7 @@
 
 //#region solutions
 
-// @desc: soliton one
+// @desc: solution one
 // @desc: create empty array to hold chunks called 'chunked'
 // @desc: for each element in the 'unchunked' array
 // @desc: retrieve the last element in 'chunked'
@@ -40,7 +40,7 @@
 //   return chunked;
 // }
 
-// @desc: soliton two
+// @desc: solution two
 // @desc: Array.protoype.slice()
 // @desc: URL[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice]
 

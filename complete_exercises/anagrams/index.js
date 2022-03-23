@@ -16,7 +16,7 @@
 
 //#region solutions
 
-// @desc: soliton one
+// @desc: solution one
 
 // @desc: Regular expressions
 // @desc: URL[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions]
@@ -51,7 +51,7 @@ function buildCharMap(str) {
   return charMap;
 }
 
-// @desc: soliton two
+// @desc: solution two
 
 // @desc: Regular expressions
 // @desc: URL[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions]

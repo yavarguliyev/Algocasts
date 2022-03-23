@@ -25,10 +25,10 @@
 
 //#region solutions
 
-// @desc: soliton one
+// @desc: solution one
 
 // @desc: from 0 to n (iterate through rows)
-//          create an empty string, 'stair
+//          create an empty string, 'stair'
 //          from 0 to n (iterate through columns)
 //            if the current column is equal to or less than the current row
 //              add a '#' to 'stair'
@@ -52,7 +52,7 @@
 //   }
 // }
 
-// @desc: soliton two recrusion tips
+// @desc: solution two recrusion tips
 
 // @desc: if (row === n) then we have hit the end of our problem
 // @desc: if the 'stair' string has a length === n then we are at the end of a row

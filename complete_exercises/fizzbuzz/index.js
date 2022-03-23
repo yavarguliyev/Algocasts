@@ -20,7 +20,7 @@
 
 //#region solutions
 
-// @desc: soliton one
+// @desc: solution one
 
 function fizzBuzz(n) {
   for (let i = 1; i <= n; i++) {

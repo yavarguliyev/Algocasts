@@ -16,7 +16,7 @@
 
 //#region solutions
 
-// @desc: soliton one
+// @desc: solution one
 function fib(n) { }
 
 //#endregion

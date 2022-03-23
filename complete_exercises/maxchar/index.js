@@ -13,7 +13,7 @@
 
 //#region solutions
 
-// @desc: soliton one
+// @desc: solution one
 
 function maxChar(str) {
   const charMap = {};

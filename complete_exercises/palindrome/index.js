@@ -15,7 +15,7 @@
 
 //#region solutions
 
-// @desc: soliton one
+// @desc: solution one
 // @desc: Array.protoype.reverse()
 // @desc: URL[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse]
 
@@ -25,7 +25,7 @@
 //   return str === reversed;
 // }
 
-// @desc: soliton two 
+// @desc: solution two 
 // @desc: Array.protoype.every()
 // @desc: URL[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every]
 
