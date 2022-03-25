@@ -22,9 +22,6 @@
 
 // @desc: solution one
 
-// @desc: Generator
-// @desc: URL[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator]
-
 function midpoint(list) {
   let slow = list.getFirst();
   let fast = list.getFirst();
