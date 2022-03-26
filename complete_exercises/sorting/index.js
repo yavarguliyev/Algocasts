@@ -14,7 +14,7 @@
 function bubbleSort(arr) {
   // implement bubbleSort
   for (let i = 0; i < arr.length; i++) {
-    for (let j = 0; j < (arr.length - i - 1); j++) {
+    for (let j = 0; j < arr.length - i - 1; j++) {
       if (arr[j] > arr[j + 1]) {
         const lesser = arr[j + 1];
         arr[j + 1] = arr[j];
@@ -47,15 +47,22 @@ function selectionSort(arr) {
 
   // return sorted array
   return arr;
-
 }
 
-function mergeSort(arr) {
-
-}
+function mergeSort(arr) { }
 
 function merge(left, right) {
+  const results = [];
 
+  while (left.length && right.length) {
+    if (left[0] < right[0]) {
+      results.push(left.shift());
+    } else {
+      results.push(right.shift());
+    }
+  }
+
+  return [...results, ...left, ...right];
 }
 
 //#endregion
