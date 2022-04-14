@@ -52,7 +52,7 @@
 //   }
 // }
 
-// @desc: solution two recrusion tips
+// @desc: solution two recursion tips
 
 // @desc: if (row === n) then we have hit the end of our problem
 // @desc: if the 'stair' string has a length === n then we are at the end of a row
