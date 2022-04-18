@@ -12,19 +12,17 @@
     Does the given string have any repeated characters in it?
 */
 
+
+
 function maxChar(str) {
-  const charMap = {};
-  let max = 0;
+  let chars = {};
   let maxChar = '';
 
   for (let char of str) {
-    charMap[char] = charMap[char] + 1 || 1;
-  }
-
-  for (let char in charMap) {
-    if (charMap[char] > max) {
-      max = charMap[char];
-      maxChar = char;
+    let currrentChar = char;
+    chars[currrentChar] = chars[currrentChar] + 1 || 1;
+    if (maxChar === '' || chars[currrentChar] > chars[maxChar]) {
+      maxChar = currrentChar;
     }
   }
 
@@ -32,3 +30,22 @@ function maxChar(str) {
 }
 
 module.exports = maxChar;
+
+// function maxChar(str) {
+//   const charMap = {};
+//   let max = 0;
+//   let maxChar = '';
+
+//   for (let char of str) {
+//     charMap[char] = charMap[char] + 1 || 1;
+//   }
+
+//   for (let char in charMap) {
+//     if (charMap[char] > max) {
+//       max = charMap[char];
+//       maxChar = char;
+//     }
+//   }
+
+//   return maxChar;
+// }
