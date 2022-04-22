@@ -1,20 +1,17 @@
-//#region description
+// --- Directions
+// Implement bubbleSort, selectionSort, and mergeSort
 
 /*
-  --- Directions
-  Implement bubbleSort, selectionSort, and mergeSort
- */
-
-//#endregion
-
-//#region solutions
-
-// @desc: solution one
+  From i = 0 to array length
+    From j = 0 to (array length - i)
+      If the element at j is greater than j + 1
+        Swap elements at j and j + 1
+*/
 
 function bubbleSort(arr) {
-  // implement bubbleSort
+  // Implement bubble sort
   for (let i = 0; i < arr.length; i++) {
-    for (let j = 0; j < arr.length - i - 1; j++) {
+    for (let j = 0; j < (arr.length - i - 1); j++) {
       if (arr[j] > arr[j + 1]) {
         const lesser = arr[j + 1];
         arr[j + 1] = arr[j];
@@ -23,12 +20,21 @@ function bubbleSort(arr) {
     }
   }
 
+
   // return sorted array
   return arr;
 }
 
+/*
+  From i = 0 to array length
+    Assume the element at 'i' is the least in the array, assign i to 'indexOfMin'
+    For j from i + 1 to end of array
+      See if there is an element with lower value
+        If there is, record its index
+    If the index of the current element and the index of the 'lowest' element is not the same, swap them
+*/
+
 function selectionSort(arr) {
-  // implement selectionSort
   for (let i = 0; i < arr.length; i++) {
     let indexOfMin = i;
 
@@ -45,7 +51,6 @@ function selectionSort(arr) {
     }
   }
 
-  // return sorted array
   return arr;
 }
 
@@ -61,6 +66,16 @@ function mergeSort(arr) {
   return merge(mergeSort(left), mergeSort(right));
 }
 
+/*
+  Create 'results' array
+  While there are still elements in both arrays
+    If the first element the left half is less than first in right half
+      'shift' the element from left into a 'result' array
+    else
+      'shift' the element from right into a 'result' array
+  Take everything from the array that still has stuff in it and put it in results
+*/
+
 function merge(left, right) {
   const results = [];
 
@@ -72,9 +87,8 @@ function merge(left, right) {
     }
   }
 
+  // This syntax does the same thing as Array.prototype.concat()
   return [...results, ...left, ...right];
 }
-
-//#endregion
 
 module.exports = { bubbleSort, selectionSort, mergeSort, merge };
