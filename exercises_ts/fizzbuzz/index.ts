@@ -12,21 +12,6 @@
 //   4
 //   buzz
 
-function fizzBuzz(n: number) {
-  for (let index = 1; index <= n; index++) {
-    // Is the number a multiple of 3 or 5?
-    if (index % 3 === 0 && index % 5 === 0) {
-      console.log('fizzbuzz');
-    } else if (index % 3 === 0) {
-      // Is the number a multiple of 3?
-      console.log('fizz');
-    } else if (index % 5 === 0) {
-      // Is the number a multiple of 5?
-      console.log('buzz');
-    } else {
-      console.log(index);
-    }
-  }
-}
+function fizzBuzz(n: number) { }
 
 export default fizzBuzz;
