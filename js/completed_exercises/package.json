@@ -1,0 +1,44 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.js\"",
+    "reversestring": "jest src/reversestring/test.js --watch",
+    "palindrome": "jest src/palindrome/test.js --watch",
+    "reverseint": "jest src/reverseint/test.js --watch",
+    "maxchar": "jest src/maxchar/test.js --watch",
+    "fizzbuzz": "jest src/fizzbuzz/test.js --watch",
+    "chunk": "jest src/chunk/test.js --watch",
+    "anagrams": "jest src/anagrams/test.js --watch",
+    "capitalize": "jest src/capitalize/test.js --watch",
+    "steps": "jest src/steps/test.js --watch",
+    "pyramid": "jest src/pyramid/test.js --watch",
+    "vowels": "jest src/vowels/test.js --watch",
+    "matrix": "jest src/matrix/test.js --watch",
+    "fib": "jest src/fib/test.js --watch",
+    "queue": "jest src/queue/test.js --watch",
+    "weave": "jest src/weave/test.js --watch",
+    "stack": "jest src/stack/test.js --watch",
+    "qfroms": "jest src/qfroms/test.js --watch",
+    "linkedlist": "jest src/linkedlist/test.js --watch",
+    "midpoint": "jest src/midpoint/test.js --watch",
+    "circular": "jest src/circular/test.js --watch",
+    "fromlast": "jest src/fromlast/test.js --watch",
+    "tree": "jest src/tree/test.js --watch",
+    "levelwidth": "jest src/levelwidth/test.js --watch",
+    "bst": "jest src/bst/test.js --watch",
+    "validate": "jest src/validate/test.js --watch",
+    "events": "jest src/events/test.js --watch",
+    "sorting": "jest src/sorting/test.js --watch"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "yavar guliyev",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}
