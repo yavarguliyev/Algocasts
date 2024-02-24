@@ -9,24 +9,24 @@
   Big O(n) => Complexity
 */
 
-function maxChar (str) {
-  const charMap = {};
-  let maxChar = '';
-  let max = 0;
+// function maxChar (str) {
+//   const charMap = {};
+//   let maxChar = '';
+//   let max = 0;
 
-  for (const char of str) {
-    charMap[char] = charMap[char] + 1 || 1
-  }
+//   for (const char of str) {
+//     charMap[char] = charMap[char] + 1 || 1
+//   }
 
-  for (const char in charMap) {
-    if (charMap[char] > max) {
-      max = charMap[char]
-      maxChar = char
-    }
-  }
+//   for (const char in charMap) {
+//     if (charMap[char] > max) {
+//       max = charMap[char]
+//       maxChar = char
+//     }
+//   }
 
-  return maxChar
-}
+//   return maxChar
+// }
 
 /*
   Big O(n) => Complexity
